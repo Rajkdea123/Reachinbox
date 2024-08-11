@@ -20,7 +20,7 @@ This project is a web application developed for Reachinbox. It features a user-f
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-repo/reachinbox-assignment.git `
+   git clone https://github.com/saqlainkaleem/reachinbox.git `
 
    ```
 
@@ -30,7 +30,7 @@ This project is a web application developed for Reachinbox. It features a user-f
 
    Copy code
 
-   `cd reachinbox-assignment`
+   `cd reachinbox`
 
 1. **Install Dependencies**
 
@@ -48,7 +48,7 @@ This project is a web application developed for Reachinbox. It features a user-f
 
    `npm run dev`
 
-   The application will be available at `http://localhost:3000`.
+   The application will be available at `http://localhost:5173`.
 
 ## API Endpoints
 
