@@ -1,16 +1,15 @@
 import { useState } from "react";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import ThemeToggle from "./ThemeToggle";
-import LogoutPopUp from "./LogoutPopUp"; // Import the LogoutPopUp component
-
+import LogoutPopUp from "./LogoutPopUp";
 function TopBar() {
 	const [showLogoutPopUp, setShowLogoutPopUp] = useState(false);
 
 	const handleLogout = () => {
 		localStorage.removeItem("token");
 		setShowLogoutPopUp(false);
-		// Redirect to login page or perform any other logout actions
-		window.location.href = "/login";
+
+		window.location.href = "/";
 	};
 
 	const handleLogoutClick = () => {
