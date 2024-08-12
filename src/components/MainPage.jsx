@@ -38,10 +38,20 @@ function MainPage() {
 		setSelectedThread(threadId);
 	};
 
+	// if (loading) {
+	// 	return (
+	// 		<div className="bg-[#ECEFF3] dark:bg-black dark:text-white text-[#5B5F66] flex h-screen w-full justify-center items-center">
+	// 			Loading ...
+	// 		</div>
+	// 	);
+	// }
 	if (loading) {
 		return (
 			<div className="bg-[#ECEFF3] dark:bg-black dark:text-white text-[#5B5F66] flex h-screen w-full justify-center items-center">
-				Loading ...
+				<div className="flex flex-col items-center">
+					<div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-blue-500 mb-4"></div>
+					<div>Loading...</div>
+				</div>
 			</div>
 		);
 	}
